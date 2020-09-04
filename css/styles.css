@@ -348,7 +348,6 @@ img {
 
 /* for next homework */
 .footer-submit {
-	width: 570px;
 	width: calc((100% - 30px) / 2);
 }
 
