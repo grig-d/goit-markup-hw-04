@@ -258,7 +258,6 @@ img {
 }
 
 .team-list .title {
-	margin-top: 30px;
 	margin-bottom: 10px;
 	font-weight: 500;
 	font-size: 16px;
@@ -267,7 +266,6 @@ img {
 }
 
 .team-list .item-text {
-	margin-bottom: 30px;
 	font-size: 16px;
 	line-height: 1.19; /* identical to box height */
 	color: var(--primary-text-color);
@@ -283,6 +281,11 @@ img {
 
 .team-list > .item:not(:nth-child(4n)) {
 	margin-right: 30px;
+}
+
+.team-card {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .portfolio-item {
@@ -322,7 +325,7 @@ img {
 	color: var(--primary-text-color);
 }
 
-.card-text {
+.portfolio-card {
 	padding: 20px 24px;
 }
 
