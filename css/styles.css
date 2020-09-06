@@ -241,12 +241,9 @@ img {
 	margin-top: 10px;
 }
 
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.feature-item > .title::before {
+.feature-item::before {
 	content: "";
 	display: block;
-	width: 270px;
 	height: 120px;
 	background-color: #f5f4fa;
 	border-radius: 4px;
@@ -255,19 +252,19 @@ img {
 	background-position: center;
 }
 
-.feature-item:nth-child(1) > .title::before {
+.icon-antenna::before {
 	background-image: url(../images/icons/antenna.svg);
 }
 
-.feature-item:nth-child(2) > .title::before {
+.icon-clock::before {
 	background-image: url(../images/icons/clock.svg);
 }
 
-.feature-item:nth-child(3) > .title::before {
+.icon-diagram::before {
 	background-image: url(../images/icons/diagram.svg);
 }
 
-.feature-item:nth-child(4) > .title::before {
+.icon-astronaut::before {
 	background-image: url(../images/icons/astronaut.svg);
 }
 
