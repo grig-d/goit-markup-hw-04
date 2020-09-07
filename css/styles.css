@@ -381,9 +381,8 @@ img {
 .social-icon {
 	width: 20px;
 	height: 20px;
-	fill: #AFB1B8;
+	fill: #afb1b8;
 }
-
 
 .portfolio-item {
 	width: calc((100% - 30px * 2) / 3);
@@ -442,10 +441,18 @@ img {
 	margin-right: 30px;
 }
 
-/* for next homework */
 .footer-join {
 	width: calc((100% - 30px * 3) / 4);
 	margin-right: 30px;
+	padding-top: 72px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.join-heading {
+	margin: 0;
 }
 
 /* for next homework */
