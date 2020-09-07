@@ -82,8 +82,12 @@ img {
 	display: inline-flex;
 }
 
-.nav-item:not(:last-child) {
+.site-nav .nav-item:not(:last-child) {
 	margin-right: 50px;
+}
+
+.contacts .nav-item:not(:last-child) {
+	margin-right: 30px;
 }
 
 .logo {
@@ -114,6 +118,25 @@ img {
 
 .contacts .link {
 	color: var(--primary-text-color);
+}
+
+.contacts .link {
+	display: flex;
+	align-items: center;
+}
+
+.envelope {
+	width: 16px;
+	height: 12px;
+	margin-right: 10px;
+	fill: var(--primary-text-color);
+}
+
+.smartphone {
+	width: 10px;
+	height: 16px;
+	margin-right: 10px;
+	fill: var(--primary-text-color);
 }
 
 .hero {
@@ -250,7 +273,7 @@ img {
 	margin-bottom: 30px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 70px ;
+	background-size: 70px;
 }
 
 .icon-antenna::before {
@@ -417,4 +440,11 @@ img {
 .address .link:hover,
 .address .link:focus {
 	color: var(--accent-color);
+}
+
+.link:hover .envelope,
+.link:focus .envelope,
+.link:hover .smartphone,
+.link:focus .smartphone {
+	fill: var(--accent-color);
 }
