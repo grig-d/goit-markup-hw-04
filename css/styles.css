@@ -250,6 +250,7 @@ img {
 	margin-bottom: 30px;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 70px ;
 }
 
 .icon-antenna::before {
@@ -267,8 +268,6 @@ img {
 .icon-astronaut::before {
 	background-image: url(../images/icons/astronaut.svg);
 }
-
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .what-list {
 	flex-wrap: wrap;
