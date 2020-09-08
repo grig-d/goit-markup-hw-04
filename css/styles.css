@@ -271,32 +271,14 @@ img {
 	margin-top: 10px;
 }
 
-.feature-item::before {
-	content: "";
-	display: block;
+.feature-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 120px;
+	margin-bottom: 30px;
 	background-color: #f5f4fa;
 	border-radius: 4px;
-	margin-bottom: 30px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 70px;
-}
-
-.icon-antenna::before {
-	background-image: url(../images/icons/antenna.svg);
-}
-
-.icon-clock::before {
-	background-image: url(../images/icons/clock.svg);
-}
-
-.icon-diagram::before {
-	background-image: url(../images/icons/diagram.svg);
-}
-
-.icon-astronaut::before {
-	background-image: url(../images/icons/astronaut.svg);
 }
 
 .what-list {
